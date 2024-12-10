@@ -1,0 +1,70 @@
+/* letra importada do Goole fontes */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sniglet:wght@400;800&display=swap");
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+header {
+  background-color: var(--cor_verde);
+}
+
+.navbar {
+  color: var(--cor_branco);
+}
+
+.navbar a {
+  color: var(--cor_branco);
+}
+
+.navbar a:hover {
+  color: var(--cor_azul);
+}
+
+.navbar-brand {
+  color: inherit;
+}
+
+.navbar-brand:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+body {
+  background-color: var(--cor_azul);
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border: solid 2px var(--cor_branco);
+}
+
+.saldo {
+  background-color: var(--cor_cinza);
+}
+
+.menu_rapido {
+  background-color: var(--cor_verde);
+  margin: 3px;
+  color: var(--cor_branco);
+}
+
+.analise_financeira {
+  color: var(--cor_branco);
+  background-color: var(--cor_amarelo);
+}
+
+.grafico {
+  width: 100%;
+  height: 18rem;
+}
+
+footer {
+  color: var(--cor_branco);
+}
